@@ -40,6 +40,14 @@ input:user-invalid {
     background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(./assets/images/banner.jpg) center/cover no-repeat;
 }
 
+.productBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(./assets/images/productsBg.jpg) center/cover no-repeat;
+}
+
+.contactBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(./assets/images/contactBg.jpg) center/cover no-repeat;
+}
+
 /* swiper */
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
