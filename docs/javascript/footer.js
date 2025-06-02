@@ -16,10 +16,10 @@ footer.innerHTML = `
                 <div class="mt-7">
                     <ul class="space-y-3 text-zinc-600">
                         <li data-aos="fade-up"><a class="transition-all duration-500 hover:text-[#214842]"
-                                href="/privacy-policy.html">Home</a>
+                                href="/index.html">Home</a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="100"><a
-                                class="transition-all duration-500 hover:text-[#214842]" href="/terms-of-use.html">About
+                                class="transition-all duration-500 hover:text-[#214842]" href="/about.html">About
                                 Us </a></li>
                         <li data-aos="fade-up" data-aos-delay="200"><a
                                 class="transition-all duration-500 hover:text-[#214842]" href="/products.html">Products
