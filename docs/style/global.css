@@ -36,8 +36,11 @@ input:user-invalid {
     border: 1.5px solid rgba(255, 0, 0, 0.416);
 }
 
-.homeBanner {
-    background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(/docs/assets/images/banner.jpg) center/cover no-repeat;
+.homeBanner1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/docs/assets/images/banner1.jpg) center/cover no-repeat;
+}
+.homeBanner2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/docs/assets/images/banner2.jpg) center/cover no-repeat;
 }
 
 .productBanner {
