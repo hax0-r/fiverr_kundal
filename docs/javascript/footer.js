@@ -39,11 +39,13 @@ footer.innerHTML = `
                 <div class="mt-7">
                     <a data-aos="fade-up" href="#"
                         class="flex items-start gap-3 transition-all mt-4 duration-500 hover:text-[#214842] text-zinc-600"><i
-                            class="fa-solid fa-location-dot text-xl text-zinc-500 mt-1"></i>Street No,
-                        CA 237 USA</a>
-                    <a data-aos="fade-up" href="mailto:info@demolink.org"
+                            class="fa-solid fa-location-dot text-xl text-zinc-500 mt-1"></i>Office No - 26, K. B. Green Plaza,  Jagat Faram, Gama First, Greater Noida ( U. P. )</a>
+                    <a data-aos="fade-up" href="mailto:kundalnaturalcare10@gmail.com"
+                        class="flex items-start gap-3 transition-all mt-4 duration-500 hover:text-[#214842] text-zinc-600"><i
+                            class="fa-solid fa-envelope text-xl text-zinc-500 mt-1"></i>kundalnaturalcare10@gmail.com</a>
+                    <a data-aos="fade-up" href="tel:+01204992823"
                         class="flex items-center gap-3 transition-all mt-4 duration-500 hover:text-[#214842] text-zinc-600"><i
-                            class="fa-solid fa-envelope text-xl text-zinc-500 "></i>info@kundal.org</a>
+                            class="fa-solid fa-phone text-xl text-zinc-500 "></i>01204992823, 9506555510</a>
                     <div class="flex items-center gap-5 text-zinc-500 mt-8">
                         <a data-aos="fade-up" href=""><i
                                 class="fa-brands transition-all duration-500 hover:text-[#214842] fa-facebook-f text-lg"></i></a>
