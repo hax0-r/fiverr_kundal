@@ -18,11 +18,16 @@ navbar.innerHTML = `
                                 class="hover:text-[#cbffb4] transition-all duration-500">Products</a></li>
                         <li><a href="/testimonial.html"
                                 class="hover:text-[#cbffb4] transition-all duration-500">Testimonial</a></li>
+                        <li><a href="/contact.html" class="hover:text-[#cbffb4] transition-all duration-500">Contact
+                                Us</a></li>
                     </ul>
                 </div>
-                <a href="/contact.html"
-                    class="block px-10 py-3 rounded-full font-medium transition-all duration-500 hover:opacity-80  text-white bg-[#214842]">Contact
-                    Us</a>
+            </div>
+            <div class="md:flex items-center justify-center gap-3 hidden">
+                <a href="https://login.kundalnaturalcare.com/Register.aspx"
+                    class="block w-28 p-3 text-center rounded-full font-medium transition-all duration-500 hover:opacity-80  text-white bg-[#214842]">Register</a>
+                <a href="https://login.kundalnaturalcare.com/login.aspx"
+                    class="block p-3 text-center w-28 rounded-full font-medium transition-all duration-500 hover:opacity-80  text-white bg-[#214842]">Login</a>
             </div>
 
             <i data-aos="fade-left"
@@ -47,11 +52,17 @@ navbar.innerHTML = `
                                 class="hover:text-[#214842] transition-all duration-500">Products</a></li>
                         <li><a href="/testimonial.html"
                                 class="hover:text-[#214842] transition-all duration-500">Testimonial</a></li>
+                        <li><a href="/contact.html"
+                                class="hover:text-[#214842] transition-all duration-500">Contact Us</a></li>
                     </ul>
                 </div>
-                <a href="/contact.html"
-                    class="block px-10 py-3 rounded-full font-medium transition-all duration-500 hover:opacity-80  text-white bg-[#214842]">Contact
-                    Us</a>
+            </div>
+
+             <div class="md:flex items-center justify-center gap-3 hidden">
+                <a href="https://login.kundalnaturalcare.com/Register.aspx"
+                    class="block w-28 p-3 text-center rounded-full font-medium transition-all duration-500 hover:opacity-80  text-white bg-[#214842]">Register</a>
+                <a href="https://login.kundalnaturalcare.com/login.aspx"
+                    class="block p-3 text-center w-28 rounded-full font-medium transition-all duration-500 hover:opacity-80  text-white bg-[#214842]">Login</a>
             </div>
 
             <i data-aos="fade-left" class="fa-solid mobileMenuBtn text-zinc-800 fa-bars md:!hidden text-2xl cursor-pointer mr-2"></i>
@@ -77,10 +88,14 @@ navbar.innerHTML = `
                 <li><a href="/testimonial.html"
                         class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">Testimonial</a>
                 </li>
+                <li><a href="/contact.html"
+                        class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">Contact Us</a>
+                </li>
             </ul>
-            <a href="/contact.html"
-                class="text-center block mobileMenuCloseBtn w-full p-3 border text-zinc-800 text-nowrap border-zinc-700 mt-5 rounded-lg cursor-pointer">Contact
-                us</a>
+            <a href="https://login.kundalnaturalcare.com/Register.aspx"
+                class="text-center block mobileMenuCloseBtn w-full p-3 border text-zinc-800 text-nowrap border-zinc-700 mt-5 rounded-lg cursor-pointer">Register</a>
+            <a href="https://login.kundalnaturalcare.com/login.aspx"
+                class="text-center block mobileMenuCloseBtn w-full p-3 border text-zinc-800 text-nowrap border-zinc-700 mt-4 rounded-lg cursor-pointer">Login</a>
         </div>
     </div>
 `
