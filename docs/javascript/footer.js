@@ -5,9 +5,7 @@ footer.innerHTML = `
             <div class="w-full">
                 <h2 data-aos="fade-up" class="font-medium text-2xl  mb-3 text-[#214842]">About Us
                 </h2>
-                <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-600 mt-5">We are supported with robust
-                    infrastructure, which is spread across a large area of land. We have fitted various advanced
-                    machines and tools in the unit that enable us in meeting customer demand on time.
+                <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-600 mt-5">We are supported with robust infrastructure, which is spread across a large area of land. We have fitted various advanced machines and tools in the unit that enable us in meeting customer demand on time.
                 </p>
             </div>
 
