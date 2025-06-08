@@ -3,9 +3,13 @@ footer.innerHTML = `
     <footer class="px-5 pt-14 md:pt-20 bg-[#f7f7f7]">
         <div class="max-w-7xl w-full mx-auto grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-20 gap-10 ">
             <div class="w-full">
-                <h2 data-aos="fade-up" class="font-medium text-2xl  mb-3 text-[#214842]">About Us
+                <h2 data-aos="fade-up" class="font-medium text-2xl  mb-3 text-[#214842]">Our Vision
                 </h2>
-                <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-600 mt-5">We are supported with robust infrastructure, which is spread across a large area of land. We have fitted various advanced machines and tools in the unit that enable us in meeting customer demand on time.
+                <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-600 mt-5">We are committed to empowering health through natural, Ayurvedic
+products. Our approach nurtures wealth by creating meaningful
+opportunities for growth. Through Kundal Natural Care and Arogya
+Centers, we inspire lasting change. Expanding across India and
+beyond, we aim to transform lives globally.
                 </p>
             </div>
 
