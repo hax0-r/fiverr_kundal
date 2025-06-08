@@ -61,11 +61,6 @@ beyond, we aim to transform lives globally.
                 </div>
             </div>
         </div>
-        <p class="max-w-7xl md:mt-16 mt-5 text-zinc-600 w-full mx-auto py-5 text-white text-center"> Kundal © <span
-                id="copyright"></span> All Rights
-            Reserved.</p>
+        <p class="max-w-7xl md:mt-16 mt-5 text-zinc-600 w-full mx-auto py-5 text-white text-center"> Kundal Natural Care Ltd @2025-2027 All Rights Reserved</p>
     </footer>
 `
-
-const year = new Date().getFullYear()
-const copyright = document.getElementById('copyright').innerHTML = year
