@@ -44,7 +44,8 @@
         <div data-aos="fade-up" class="w-full text-center bg-[#f7f7f7] py-16 rounded-2xl">
             <i class="fa-solid fa-envelope text-3xl text-zinc-400 "></i>
             <h2 class="text-center text-[#214842] mt-3 font-medium text-xl">Write to us</h2>
-            <a href="mailto:kundalnaturalcare10@gmail.com" class="text-zinc-500 mt-1 text-sm">kundalnaturalcare10@gmail.com</a>
+            <a href="mailto:kundalnaturalcare10@gmail.com"
+                class="text-zinc-500 mt-1 text-sm">kundalnaturalcare10@gmail.com</a>
         </div>
         <div data-aos="fade-up" data-aos-delay="200" class="w-full text-center bg-[#f7f7f7] py-16 rounded-2xl">
             <i class="fa-solid fa-phone text-3xl text-zinc-400 "></i>
@@ -67,14 +68,17 @@
                 </h2>
             </div>
             <div class="flex items-center md:mt-10 mt-6 justify-between md:gap-24 gap-14 md:flex-row flex-col">
-                <form action="" class="w-full">
-                    <input data-aos="fade-up" required type="text" placeholder="Enter Your Name"
+                <form action="https://api.web3forms.com/submit" method="POST" class="w-full">
+                    <input type="hidden" name="access_key" value="343a9ac1-ea65-4041-ba45-3a8d179ee352">
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <input name="Name" data-aos="fade-up" required type="text" placeholder="Enter Your Name"
                         class="w-full mb-5 py-2 placeholder:text-zinc-300 text-white border-b border-[#efc360]">
-                    <input data-aos="fade-up" required type="email" placeholder="Enter Your Email"
+                    <input name="Email" data-aos="fade-up" required type="email" placeholder="Enter Your Email"
                         class="w-full mb-5 py-2 placeholder:text-zinc-300 text-white border-b border-[#efc360]">
-                    <input data-aos="fade-up" required type="number" placeholder="Enter Your Number"
+                    <input name="Number" data-aos="fade-up" required type="number" placeholder="Enter Your Number"
                         class="w-full mb-5 py-2 placeholder:text-zinc-300 text-white border-b border-[#efc360]">
-                    <textarea data-aos="fade-up" required placeholder="Message..." rows="4"
+                    <textarea name="message" data-aos="fade-up" required placeholder="Message..." rows="4"
                         class="w-full mb-5 py-2 placeholder:text-zinc-300 text-white border-b border-[#efc360]"></textarea>
                     <button data-aos="fade-up"
                         class="w-full py-3 px-10 font-medium text-center text-zinc-800 rounded-full bg-[#efc360] hover:opacity-80 transition-all duration-500 cursor-pointer">Submit
